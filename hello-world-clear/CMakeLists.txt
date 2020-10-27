@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8.4)
 
 project(hello)
 
-add_subdirectory(src)
+add_subdirectory(src bin)
 
 INSTALL(FILES COPYRIGHT README.md DESTINATION share/doc/cmake/hello-world-clear)
 
